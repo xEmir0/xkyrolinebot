@@ -11,6 +11,8 @@ module.exports = {
     .addField('??toplam-kod', 'Bu Komut Toplam Kaç Komut Olduğunu Gösterir.',)
     .addField('??ban', 'Bu Komut Bir Kişiyi Sunucudan Yasaklamanızı Sağlar .',)
     .addField('??kick', 'Bu Komut Bir Kullanıcıyı Sunucudan Atmanızı Sağlar.',)
+    .addField('??snipe', 'Bu Komut Silinen Son Mesajı Gösterir.',)
+    .addField('??idban', 'Bu Komut ID İle Bir Kişiyi Banlamanıza Yarar.',)
     message.channel.send(embed)
 
   }
