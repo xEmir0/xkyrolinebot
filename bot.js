@@ -89,4 +89,21 @@ client.on('message', msg => {
   }
 });
 
+client.on("message", message => {
+  const reklam = ["discord.gg","http","https","www",".com","bit.ly"];
+  if (reklam.some(word => message.content.includes(word)) ) {
+    message.reply("Hey ! Kendini Ne Sanıyorsun ? Reklam Yapmayı Bırakır Mısın ?")
+    message.delete()
+}
+});
+
+
+  client.on("message", message => {
+    const kufur = ["ananı","anani","anskm","anneni","babanı","ananıskm","ananiskm","aneni","oç","oc","orospu","orspu","pic","piç"];
+    if (kufur.some(word => message.content.includes(word)) ) {
+      message.reply("Pşşşt Bana Bak ! Utanmıyor Musun Millete Sövüyorsun ?")
+      message.delete()
+  }
+});
+   
 client.login('Nzg1ODI1MTA0MjEwODIxMTQw.X89eqA.jVklWfUzYzUfWRVW2FHNL8xJ2kI')
