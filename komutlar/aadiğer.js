@@ -9,7 +9,7 @@ module.exports = {
     .addField('??user', 'Bu Komut Kişinin Bilgilerini Gösterir.',)
     .addField('??nuke', 'Bu Komut Kanalı Silip Tekrar Oluşturulmasını Sağlar.',)
     .addField('??ping', 'Bu Komut Botun Pingini Gösterir.',)
-    .addFiedl('??sunucu-bilgi', 'Bu Komut Sunucu Bilgilerini Gösterir.')
+    .addField('??sunucu-bilgi', 'Bu Komut Sunucu Bilgilerini Gösterir.')
     message.channel.send(embed)
 
   }
