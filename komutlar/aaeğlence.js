@@ -6,6 +6,7 @@ module.exports = {
     const embed = new MessageEmbed()
     .setTitle('Yardım Paneli')
     .addField('??sahtemesaj', 'Sahte Mesaj Gönderir',)
+    .addField('??change-my-mind', 'Change My Mind Memesini Yollar')
     message.channel.send(embed)
 
   }
