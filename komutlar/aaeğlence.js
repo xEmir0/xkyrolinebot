@@ -7,6 +7,7 @@ module.exports = {
     .setTitle('Yardım Paneli')
     .addField('??sahtemesaj', 'Sahte Mesaj Gönderir',)
     .addField('??change-my-mind', 'Change My Mind Memesini Yollar')
+    .addField('??8ball', 'Olasılıklar Verir')
     message.channel.send(embed)
 
   }
