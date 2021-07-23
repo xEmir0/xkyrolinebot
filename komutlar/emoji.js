@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 module.exports = {
-    kod: "emoji",
+    kod: "emojihelp",
     async run (client, message, args) {
       if(!message.member.hasPermission('MANAGE_EMOJIS')) return;
         if(!args[0]) return message.channel.send("Bir mesaj ID'si yazman gerek. Daha fazla bilgi için: https://support.discord.com/hc/tr/articles/206346498");
