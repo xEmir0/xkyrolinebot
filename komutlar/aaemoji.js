@@ -6,7 +6,7 @@ module.exports = {
     const embed = new MessageEmbed()
     .setTitle('Yardım Paneli')
     .addField('??çal', 'Bu Komut Belirttiğiniz Emojiyi Kendi Sunucunuza Ekler.',)
-    .addField('??emoji', 'Bu Komut Belirttiğiniz Emojinin Bilgilerini Gösterir.',)
+    .addField('??emojihelp', 'Bu Komut Belirttiğiniz Emojinin Bilgilerini Gösterir.',)
     message.channel.send(embed)
 
   }
