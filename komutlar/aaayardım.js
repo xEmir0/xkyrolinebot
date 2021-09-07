@@ -11,7 +11,7 @@ module.exports = {
     .addField('??emoji', 'Emoji Komutları',)
     .addField('??eğlence', 'Eğlence Komutları',)
     .addField('??diğer', 'Diğer Komutlar',)
-    .addField('**BAĞLANTILAR**', '[Davet Et](https://discord.com/api/oauth2/authorize?client_id=785825104210821140&permissions=8&scope=bot)\n[Minecraft Sunucu](https://discord.gg/67zeZ3EFK3)')
+    .addField('**BAĞLANTILAR**', '[Davet Et](https://discord.com/api/oauth2/authorize?client_id=785825104210821140&permissions=8&scope=bot')
     message.channel.send(embed)
 
   }
