@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const require('discord-reply');
+require('discord-reply');
 
 module.exports = {
     kod: "balık-tut",
