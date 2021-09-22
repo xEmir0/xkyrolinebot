@@ -5,7 +5,6 @@ module.exports = {
   async run (client, message, args) {
     const embed = new MessageEmbed()
     .setTitle('Yardım Paneli')
-    .addField('??nsfw', 'NSFW komutları',)
     .addField('??moderasyon', 'Moderasyon Komutları',)
     .addField('??logo', 'Logo Komutları',)
     .addField('??emoji', 'Emoji Komutları',)
