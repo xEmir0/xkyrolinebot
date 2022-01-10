@@ -10,7 +10,7 @@ module.exports = {
     .addField('??emoji', 'Emoji Komutları',)
     .addField('??eğlence', 'Eğlence Komutları',)
     .addField('??diğer', 'Diğer Komutlar',)
-    .addField('**BAĞLANTILAR**', '[Davet Et](https://discord.com/api/oauth2/authorize?client_id=930137214283812874&permissions=8&scope=bot), '[Linktree](https://linktr.ee/dravixa)')
+    .addField('**BAĞLANTILAR**', '[Davet Et](https://discord.com/api/oauth2/authorize?client_id=930137214283812874&permissions=8&scope=bot)\n[Linktree](https://linktr.ee/dravixa)')
     message.channel.send(embed)
 
   }
