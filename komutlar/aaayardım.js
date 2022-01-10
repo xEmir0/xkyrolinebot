@@ -10,7 +10,7 @@ module.exports = {
     .addField('??emoji', 'Emoji Komutları',)
     .addField('??eğlence', 'Eğlence Komutları',)
     .addField('??diğer', 'Diğer Komutlar',)
-    .addField('**BAĞLANTILAR**', '[Davet Et](https://discord.com/api/oauth2/authorize?client_id=785825104210821140&permissions=8&scope=bot)')
+    .addField('**BAĞLANTILAR**', '[Davet Et](OTMwMTM3MjE0MjgzODEyODc0.YdxfyA.NyckdsKIalwtbEsHwNdM3WmJhu8)')
     message.channel.send(embed)
 
   }
