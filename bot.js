@@ -5,7 +5,7 @@ const { join } = require('path'); // tanımlamalar
 
 client.commands= new Discord.Collection(); // komutları alıyoruz
 
-const prefix = "??"
+const prefix = "gg??"
 
 const commandFiles = readdirSync(join(__dirname, "komutlar")).filter(file => file.endsWith(".js")); // Belli bir klasörden belli .js uzantılı dosyaları buluyor.const commandFiles = readdirSync(join(__dirname, "komutlar")).filter(file => file.endsWith(".js"));
 
@@ -19,9 +19,9 @@ client.on("error", console.error);
 client.on('ready', () => {
     console.log('Botumuz Aktif')
     const durumlar = [
-      "Prefix: ??",
+      "Prefix: gg??",
       "??yardım",
-      "Biliyor Muydunuz ? Profil Fotoğrafım Rastgele Bir Şeyler Çizerken Ortaya Geldi.",
+      "Da Giga Chad Mağarası İçin Çalışıyorum.",
     ]
     setInterval(function () {
       let durum = durumlar[Math.floor(Math.random()*durumlar.length)]
