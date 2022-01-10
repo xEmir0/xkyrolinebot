@@ -19,7 +19,7 @@ client.on("error", console.error);
 client.on('ready', () => {
     console.log('Botumuz Aktif')
     const durumlar = [
-      "Prefix: gg??",
+      "Prefix: ??",
       "??yardım",
       "Da Giga Chad Mağarası İçin Çalışıyorum.",
     ]
