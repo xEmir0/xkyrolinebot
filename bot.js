@@ -5,7 +5,7 @@ const { join } = require('path'); // tanımlamalar
 
 client.commands= new Discord.Collection(); // komutları alıyoruz
 
-const prefix = "gg??"
+const prefix = "??"
 
 const commandFiles = readdirSync(join(__dirname, "komutlar")).filter(file => file.endsWith(".js")); // Belli bir klasörden belli .js uzantılı dosyaları buluyor.const commandFiles = readdirSync(join(__dirname, "komutlar")).filter(file => file.endsWith(".js"));
 
