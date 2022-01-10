@@ -11,7 +11,7 @@ module.exports = {
         message.channel.send(embed).then(mesaj => {
             setTimeout(function() {
                 mesaj.delete()
-            }, 5000);
+            }, 2000);
         })
     }
 }
